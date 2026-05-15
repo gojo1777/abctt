@@ -1,0 +1,24 @@
+{
+  "name": "mr-thinuzz-movie-api",
+  "version": "3.1.0",
+  "description": "Movie API by Mr Thinuzz - CineSubz Scraper",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "crypto-js": "^4.2.0",
+    "express": "^4.18.2",
+    "node-cache": "^5.1.2",
+    "protobufjs": "^7.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
